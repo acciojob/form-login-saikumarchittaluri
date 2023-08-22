@@ -8,7 +8,8 @@ function getFormvalue() {
     var lastName = form.lname.value;
     
     // Display an alert with the first and last names
-    alert( firstName + lastName);
+    // alert( firstName + lastName);
+	 alert("First Name: " + firstName + "\nLast Name: " + lastName);
     
     // Prevent the form from submitting normally
     return false;
